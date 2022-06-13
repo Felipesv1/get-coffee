@@ -8,9 +8,8 @@
     font-weight: 700 bold;
     font-size:67.5%;
 }
-
 .container-header{
-    width: 37.5rem;
+    width: 100vw;
     height: 100px;
     margin-inline: auto;
     display: flex;
@@ -22,7 +21,6 @@
 .container-header .div-nav {
     width: 80%;
 }
-
 .container-header ul{
     width: 100%;
     display: flex;
@@ -31,33 +29,26 @@
     list-style: none;
     font-size: 2.5rem;
 }
-
 .container-header li{
     transition: 0.1s all;
 }
-
 li:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
-
 main{
     width:37.5rem;
     height: 135vh;
     margin-inline: auto;
-    border:2px solid red;
     overflow: hidden;
 }
 
 .box-svg .forma1{
  transform: translateX(-180px) translateY(50px);
 }
-
 .box-svg .forma2{
     transform: translateX(190px) translateY(-330px);
 }
-
-
 .box-text h2{
     font-size: 1.8rem;
     text-align:center;
@@ -68,7 +59,6 @@ main{
     bottom:280px;
     z-index: 99999;
 }
-
 .box-text button{
     font-size:1.5rem;
     padding:10px;
@@ -83,27 +73,22 @@ main{
     color: white;
     border-radius:5px;
 }
-
 button:hover{
     cursor:pointer;
     filter:brightness(1.2)
 }
-
-
 footer{
     width:37.5rem;
     margin-inline: auto;
     position: relative;
     bottom:150px;
 }
-
 footer ul{
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
-
 footer li{
     margin-left:5px;
     list-style: none;
