@@ -45,18 +45,45 @@ main{
     width:37.5rem;
     margin-inline: auto;
     border:2px solid red;
+    overflow: hidden;
 }
 
 .box-svg .forma1{
-    border:1px solid;
-    position: relative;
-    right:195px;
-    top:45px;
+ transform: translateX(-180px) translateY(50px);
 }
 
 .box-svg .forma2{
-    position: relative;
-    left:210px;
-    bottom:200px;
+    transform: translateX(180px) translateY(-330px);
 }
 
+
+.box-text h2{
+    font-size: 1.8rem;
+    text-align:center;
+    width: 75%;
+    font-weight:900;
+    position:relative;
+    left: 60px;
+    bottom:280px;
+    z-index: 99999;
+}
+
+.box-text button{
+    font-size:1.5rem;
+    padding:10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    left: 90px;
+    bottom:225px;
+    z-index: 99999;
+    background: #FCA60F;
+    border:none;
+    color: white;
+    border-radius:5px;
+}
+
+button:hover{
+    cursor:pointer;
+    filter:brightness(1.2)
+}
