@@ -43,6 +43,7 @@ li:hover{
 
 main{
     width:37.5rem;
+    height: 135vh;
     margin-inline: auto;
     border:2px solid red;
     overflow: hidden;
@@ -53,7 +54,7 @@ main{
 }
 
 .box-svg .forma2{
-    transform: translateX(180px) translateY(-330px);
+    transform: translateX(190px) translateY(-330px);
 }
 
 
@@ -86,4 +87,24 @@ main{
 button:hover{
     cursor:pointer;
     filter:brightness(1.2)
+}
+
+
+footer{
+    width:37.5rem;
+    margin-inline: auto;
+    position: relative;
+    bottom:150px;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer li{
+    margin-left:5px;
+    list-style: none;
 }
